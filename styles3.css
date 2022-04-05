@@ -1,0 +1,40 @@
+html{
+    background-color :rgba(32, 178, 170,0.5);
+}
+.choice{
+   
+    background-color:rgba(243, 45, 45, 0.5);
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    outline:none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transform:scale(0.8);
+}
+.choice:hover{
+    background-color:rgba(243, 45, 45,0.9);
+    cursor:pointer;
+    transform:scale(1.0)
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap:5px;
+    margin:30px 0;
+    padding:15px;
+    padding-top: 3em;
+    max-width: 20%;
+}
+tr{
+    padding: 5px;
+    margin:auto;
+}
+th{
+    padding: 5px;
+    margin: auto;
+}
+td{
+    padding:10px;
+    margin: auto;
+}

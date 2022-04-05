@@ -1,0 +1,66 @@
+*,*::before,::after{
+box-sizing: border-box;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items:center;
+    background-color:rgb(103, 117, 117);
+    min-height: 100vh;
+}
+.all{
+    width: 900px;
+    max-width: 90%;
+    background-color: rgb(32, 178, 170);
+    border-radius: 5px;
+    padding:25px;
+    box-shadow: 0 0 10px 2px;
+    height:700px;
+    max-height: 55%;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap:10px;
+    margin:60px 0;
+    padding:15px;
+}
+.choice{
+
+    background-color:rgba(243, 45, 45, 0.5);
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    outline:none;
+    font-size: 1.2rem;
+    font-weight: bold;
+ 
+}
+.choice:hover{
+    background-color:rgba(243, 45, 45,0.9);
+    cursor:pointer;
+    transform:scale(1.05)
+   
+}
+.greeting{
+   position:absolute;
+   top:4rem;
+   font-size: 2.5rem;
+   color: rgb(32, 178, 170);
+   font-weight: bold;
+}
+.pick{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.4em;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
